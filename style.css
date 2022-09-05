@@ -1,0 +1,45 @@
+.ball {
+  border: 1px solid black;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 3px;
+  height: 45px;
+  margin: 5px;
+  padding: 15px;
+  width: 45px;
+}
+
+#cores {
+  justify-content: space-between;
+}
+
+#rgb-color {
+  margin-bottom: 35px;
+  margin-top: 50px;
+}
+
+header {
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+  border: 0.5px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 2px 2px black;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#reset-game {
+  padding: 5px 10px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: auto;
+}
+
+html {
+  background-color: #fee140;
+  background-image: url('https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+  background-size: cover;
+}
